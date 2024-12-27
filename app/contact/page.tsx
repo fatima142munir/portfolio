@@ -1,21 +1,21 @@
 const Contact = () => {
     return (
         <section className="text-white body-font relative bg-darkest">
-            <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-center pt-8">Contact</h1>
+            <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-center pt-14">Contact</h1>
 
-            <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-300 shadow-white shadow-2xl opacity-85 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe width="100%" height="100%" className="absolute inset-0 filter" title="map" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+                    <iframe width="100%" height="100%" className="absolute inset-0 filter" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.380657233513!2d67.02340577442928!3d24.85084544564403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e75a28531d1%3A0x412558657f5ff4a8!2sGovernor%20House%20Karachi!5e0!3m2!1sen!2s!4v1735336687823!5m2!1sen!2s"></iframe>
                     <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                            <p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                            <p className="text-darkest mt-1">Aiwan-e-Sadar, Civil Lines, Karachi, Karachi City, Sindh 75580, Pakistan</p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                            <a className="text-indigo-500 leading-relaxed">example@email.com</a>
+                            <p className="text-darkest leading-relaxed">fmunir142@gmail.com</p>
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                            <p className="leading-relaxed">123-456-7890</p>
+                            <p className="text-darkest leading-relaxed">0315-3136846</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                         <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
                         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
-                    <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                    <button className="text-white bg-darkest border-0 py-2 px-6 focus:outline-none hover:bg-dark rounded text-lg">Button</button>
                     <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
                 </div>
             </div>

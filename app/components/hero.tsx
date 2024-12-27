@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profile from "../../public/assets/profile.avif"
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -11,7 +12,7 @@ const Hero = () => {
                     Frontend Web Developer</h1>
                     
                     <div className="flex justify-start">
-                        <button className="inline-flex text-darkest bg-white shadow-white shadow-md border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">View Resume</button>
+                        <button className="inline-flex text-darkest bg-white shadow-white shadow-md border-0 py-2 px-6 focus:outline-none hover:bg-dark rounded text-lg"><Link target="_blank" href={"https://static-resume-fatima.vercel.app/"}>View Resume</Link></button>
                     </div>
                 </div>
                 <div className="rounded-full w-full justify p-8">
