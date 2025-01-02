@@ -16,16 +16,16 @@ const Footer = () => {
                     <Link href={''} className=" ml-1" rel="noopener noreferrer" target="_blank">@Fatima Munir</Link>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                    <Link href={''} className="ml-3">
+                    <Link target="blank" href={'https://www.facebook.com/fatima.pari.37'} className="ml-3">
                     <FaFacebookF />
                     </Link>
-                    <Link href={''} className="ml-3">
+                    <Link target="blank" href={'https://x.com/FatimaMunir142'} className="ml-3">
                     <FaXTwitter />
                     </Link>
-                    <Link href={''} className="ml-3">
+                    <Link target="blank" href={'https://www.instagram.com/fatima_munir_developer/'} className="ml-3">
                     <GrInstagram />
                     </Link>
-                    <Link href={''} className="ml-3">
+                    <Link target="blank" href={'https://www.linkedin.com/in/fatimamunir/'} className="ml-3">
                     <FaLinkedin />
                     </Link>
                 </span>
