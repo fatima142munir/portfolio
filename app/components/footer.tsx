@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { GrInstagram } from "react-icons/gr";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -22,8 +22,8 @@ const Footer = () => {
                     <Link target="blank" href={'https://x.com/FatimaMunir142'} className="ml-3">
                     <FaXTwitter />
                     </Link>
-                    <Link target="blank" href={'https://www.instagram.com/fatima_munir_developer/'} className="ml-3">
-                    <GrInstagram />
+                    <Link target="blank" href={'https://github.com/fatima142munir'} className="ml-3">
+                    <FaGithub />
                     </Link>
                     <Link target="blank" href={'https://www.linkedin.com/in/fatimamunir/'} className="ml-3">
                     <FaLinkedin />
