@@ -1,7 +1,5 @@
-import Image from "next/image";
-import Rectangle from "../images/Rectangle.png"
 import { ImHtmlFive } from "react-icons/im";
-import { SiCss3, SiJavascript, SiBootstrap, SiTypescript, SiSanity } from "react-icons/si";
+import { SiCss3, SiJavascript, SiBootstrap, SiTypescript, SiFirebase } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact, FaPython } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -64,7 +62,7 @@ const Skills = () => {
                     </div>
                     <div className="p-4 md:w-1/4 sm:w-1/2 lg:w-1/6 w-full">
                         <div className="shadow-white shadow-2xl border-2 py-5 border-gray-200 rounded-2xl bg-gray-200 text-8xl text-red-500 justify-items-center">
-                            <SiSanity />
+                            <SiFirebase />
                         </div>
                     </div>
                     <div className="p-4 md:w-1/4 sm:w-1/2 lg:w-1/6 w-full">
